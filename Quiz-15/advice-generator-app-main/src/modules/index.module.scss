@@ -1,0 +1,47 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color:rgb(35, 38, 83);
+    overflow: hidden;
+
+    .box{
+        width:600px;
+        height:400px;
+        background-color:rgb(21, 23, 31);
+        color:white;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 15px;
+
+    p{
+        margin:0;
+        font-size:20px;
+    }
+
+    .quote-id{
+        font-weight:bold;
+        position:absolute;
+        margin-bottom:300px;
+    
+    }
+
+    .quote-text{
+        position:absolute;
+        margin-bottom:10px;
+    }
+
+    button{
+        position:absolute;
+        margin-top:200px;
+        height:40px;
+        width:100px;
+        border-radius:20px;
+        background-color:green;
+        color:black;
+        border-color:green;
+    }
+    }
+}
